@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+#turn {
+    font-size: 40px;
+    font-weight: bold;
+}
+.pass {
+    margin: 0 30px;
+    padding: 10px;
+    border: solid 1px black;
+    background-color: #DDDDDD;
+    transition: .3s;
+}
+.pass:hover {
+    background-color: #4DB56A;
+}
+.background {
+    margin: 0 auto;
+    background-color: #4DB56A;
+}
+td {
+    width: 50px;
+    height: 50px;
+}
+.piece-white {
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 3px black;
+}
+.piece-black {
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 3px black;
+}
